@@ -1,0 +1,46 @@
+footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(233, 26%, 24%);
+    padding: 50px 0px;
+}
+
+.firstp-footer{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.firstp-footer ul{
+    list-style-type: none;
+    color:hsl(233, 8%, 62%);
+    line-height: 27px;
+    cursor: pointer;
+}
+.firstp-footer .socials img{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.firstp-footer .logo{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.secondp-footer{
+    display: grid;
+}
+
+.secondp-footer small{
+    color: hsl(233, 8%, 62%);
+}
+
+.secondp-footer button{
+     background-image: linear-gradient(80deg, hsl(136, 65%, 51%),  hsl(192, 70%, 51%));
+        padding:12px 32px;
+        border: 0;
+        border-radius: 18px;
+        margin-bottom: 25px;
+        cursor: pointer;
+}

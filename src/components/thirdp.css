@@ -1,0 +1,50 @@
+.Articles{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 0px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.article-head h3{
+    font-size: 40px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    font-weight: 100;
+    color: hsl(233, 26%, 24%);
+}
+
+.thirdp-article{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.article{
+     width: 280px;
+}
+
+.article h2{
+    margin: 20px 0;
+    color:hsl(233, 26%, 24%)  ;
+}
+.article small{
+    color:hsl(233, 8%, 62%) ;
+}
+.article p{
+    color:hsl(233, 8%, 62%) ;
+}
+
+.article img{
+    height: 250px;
+    border-radius: 5px;
+}
+
+.article .words{
+    padding: 25px;
+    background-color: #fff;
+}
+
